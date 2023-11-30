@@ -1,16 +1,11 @@
-# This is a sample Python script.
+print("This is a TIC TAC TOE Game!")
+wanna_play = input("Do you want to play? Type 'yes' or 'no'.\n").upper()
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+game_on = True
+if wanna_play == "NO":
+    print("Goodbye.")
+    game_on = False
+elif wanna_play == "YES":
+    number_of_players = input("Do you want to play with AI or with your friend?")
+else:
+    print("Please, type yes or no.\n")
