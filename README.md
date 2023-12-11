@@ -1,4 +1,5 @@
 # Tic Tac Toe
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
 Welcome to the Tic Tac Toe game! This simple console-based game allows you to play Tic Tac Toe against a friend or an AI opponent.
 
@@ -26,10 +27,27 @@ Welcome to the Tic Tac Toe game! This simple console-based game allows you to pl
 
 1. Clone the repository:
 
-   ```bash
-  <code> git clone  https://github.com/toster3d/tic-tac-toe-game.git </code>
-   cd tic-tac-toe
+   ```bash 
+   git clone  https://github.com/toster3d/tic-tac-toe-game.git </code>
+   cd tic-tac-toe 
+   ```
 2. Install the required dependencies:
+   ```bash 
    pip install -r requirements.txt
+   ``` 
 3. Run the game:
+   ```bash 
    python tic_tac_toe-game.py
+   ```
+## Contributing
+If you would like to contribute to the development of this Tic Tac Toe game, please follow these steps:
+
+1. Fork the repository.
+2.Create a new branch for your feature or bugfix: git checkout -b feature-name. 
+3. Make your changes and commit them: git commit -m 'Add new feature'. 
+4. Push to your branch: git push origin feature-name. 
+5. Create a pull request.
+
+## Contact
+- Author: Jagoda Spychała
+- E-mail: jagoda.spychala1@email.com
